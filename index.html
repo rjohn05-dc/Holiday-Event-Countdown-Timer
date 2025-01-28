@@ -4,13 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Countdown Timer</title>
+    <title>Holiday Countdown Timer</title>
 </head>
 <body>
     <h1>Holiday Countdown Timer</h1>
+    <main>
+        <div class="form">
+            <label for="event">Enter your Event:</label>
+            <input type="text" id="event" name="event" required>
 
-    <form>
-        <label> for="fname">First Name:</label>
-    </form>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <button type="submit">Start Countdown</button>    
+        </div>
+<section class="timer">
+    <h1>Different Timers</h1>
+
+        
+            <label for="event">Enter your Event:</label>
+            <input type="text" id="event" name="event" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <button type="submit">Start Countdown</button>      
+            </div>  
+</section>
+
+<div class="timer-container">
+    <div class="timer-box">
+        <h2>Days</h2>
+        <p id="days">0</p>
+    </div>
+    <div class="timer-box">
+        <h2>Hours</h2>
+        <p id="hours">0</p>
+    </div>
+    <div class="timer-box">
+        <h2>Minutes</h2>
+        <p id="minutes">0</p>
+    </div>
+    <div class="timer-box">
+        <h2>Seconds</h2>
+        <p id="seconds">0</p>
+    </div>
+    </main>
 </body>
+<script src="scripts.js"></script>
 </html>

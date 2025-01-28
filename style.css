@@ -1,6 +1,74 @@
-*{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:xx-large;
-    align-content: center;
-    justify-items: center;
+.form{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    border: 1px solid #555;
+    border-radius: 10px;
+    background-color:crimson;
+    gap:10px;
 }
+
+.timer{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color:gold;
+    gap:10px;
+}
+
+
+h1{
+    text-align: center;
+    color: black;
+    border: 1px solid #555;
+    border-radius: 10px;
+    background-color:green;
+}
+
+/* .card{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    border: 1px solid #555;
+    border-radius: 10px;
+    background-color:darkgoldenrod;
+    gap:10px;
+}
+
+.card2{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    border: 1px solid #555;
+    border-radius: 10px;
+    background-color:darkgoldenrod;
+    gap:10px;
+}
+
+.card3{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    border: 1px solid #555;
+    border-radius: 10px;
+    background-color:darkgoldenrod;
+    gap:10px;
+}
+
+.card4{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    border: 1px solid #555;
+    border-radius: 10px;
+    background-color:darkgoldenrod;
+    gap:10px;
+} */
