@@ -8,52 +8,48 @@
 </head>
 <body>
     <h1>Holiday Countdown Timer</h1>
-    <main>
-        <div class="form">
-            <label for="event">Enter your Event:</label>
-            <input type="text" id="event" name="event" required>
+        <main>
+        <div class="timer1">
 
-            <label for="time">Time:</label>
-            <input type="time" id="time" name="time" required>
+            <input type="text" id="event1" name="event" required placeholder="Enter your Event:">
 
+            <input type="datetime-local" id="time1" required>
+<!-- 
             <label for="date">Date:</label>
-            <input type="date" id="date" name="date" required>
-            <button type="submit">Start Countdown</button>    
+            <input type="date" id="date1" name="date" required> -->
+            <button onclick="updateCountdown()">Start Countdown</button>    
         </div>
-<section class="timer">
-    <h1>Different Timers</h1>
 
-        
+        <!-- <div class="timer2">
             <label for="event">Enter your Event:</label>
-            <input type="text" id="event" name="event" required>
+            <input type="text" id="event2" name="event" required>
 
             <label for="time">Time:</label>
-            <input type="time" id="time" name="time" required>
+            <input type="time" id="time2" name="time" required>
 
             <label for="date">Date:</label>
-            <input type="date" id="date" name="date" required>
-            <button type="submit">Start Countdown</button>      
-            </div>  
-</section>
+            <input type="date" id="date2" name="date" required>
+            <button type="submit" onclick="startCountdown(2)">Start Countdown</button>
+        </div>
 
-<div class="timer-container">
-    <div class="timer-box">
-        <h2>Days</h2>
-        <p id="days">0</p>
-    </div>
-    <div class="timer-box">
-        <h2>Hours</h2>
-        <p id="hours">0</p>
-    </div>
-    <div class="timer-box">
-        <h2>Minutes</h2>
-        <p id="minutes">0</p>
-    </div>
-    <div class="timer-box">
-        <h2>Seconds</h2>
-        <p id="seconds">0</p>
-    </div>
+        <div class="timer3">
+            <label for="event">Enter your Event:</label>
+            <input type="text" id="event3" name="event" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time3" name="time" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date3" name="date" required>
+            <button type="submit" onclick="startCountdown(3)">Start Countdown</button>
+        </div> -->
+
+
+        <section class="activeTimers">
+                <h2>Active Timers</h2>
+        </section>
+
     </main>
 </body>
-<script src="scripts.js"></script>
+<script src="script.js"></script>
 </html>

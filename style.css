@@ -1,26 +1,45 @@
-.form{
+
+
+.timer1{
     width: 100%;
     max-width: 330px;
     padding: 15px;
     margin: auto;
+    margin-bottom: 10px; /* Add margin-bottom property */
     border: 1px solid #555;
     border-radius: 10px;
     background-color:crimson;
-    gap:10px;
 }
 
-.timer{
+.timer2{
     width: 100%;
     max-width: 330px;
     padding: 15px;
     margin: auto;
-    border: 1px solid #333;
+    margin-bottom: 10px; /* Add margin-bottom property */
+    border: 1px solid #555;
     border-radius: 10px;
-    background-color:gold;
-    gap:10px;
+    background-color:white;
 }
 
+.timer3{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 10px; /* Add margin-bottom property */
+    border: 1px solid #555;
+    border-radius: 10px;
+    background-color:green;
+}
 
+.activeTimers {
+    background-color:gold;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
 h1{
     text-align: center;
     color: black;
@@ -28,47 +47,3 @@ h1{
     border-radius: 10px;
     background-color:green;
 }
-
-/* .card{
-    width: 100%;
-    max-width: 330px;
-    padding: 15px;
-    margin: auto;
-    border: 1px solid #555;
-    border-radius: 10px;
-    background-color:darkgoldenrod;
-    gap:10px;
-}
-
-.card2{
-    width: 100%;
-    max-width: 330px;
-    padding: 15px;
-    margin: auto;
-    border: 1px solid #555;
-    border-radius: 10px;
-    background-color:darkgoldenrod;
-    gap:10px;
-}
-
-.card3{
-    width: 100%;
-    max-width: 330px;
-    padding: 15px;
-    margin: auto;
-    border: 1px solid #555;
-    border-radius: 10px;
-    background-color:darkgoldenrod;
-    gap:10px;
-}
-
-.card4{
-    width: 100%;
-    max-width: 330px;
-    padding: 15px;
-    margin: auto;
-    border: 1px solid #555;
-    border-radius: 10px;
-    background-color:darkgoldenrod;
-    gap:10px;
-} */
