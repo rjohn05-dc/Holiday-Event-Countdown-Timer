@@ -12,7 +12,7 @@ function updateCountdown(){
     const date= new Date(document.getElementById('date').value); // Get the date of the timer
     
     if (timeDifference <= 0) {
-        document.getElementById('activeTimers').innerHTML = 'FimbleWinter is here!';
+        document.getElementById('activeTimers').innerHTML ='The day has come';
         clearInterval(intervalID); // Stop the countdown timer when the target date is reached
         return;
     }
