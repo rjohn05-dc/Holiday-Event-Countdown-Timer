@@ -1,49 +1,44 @@
-
-
-.timer1{
-    width: 100%;
-    max-width: 330px;
-    padding: 15px;
-    margin: auto;
-    margin-bottom: 10px; /* Add margin-bottom property */
-    border: 1px solid #555;
-    border-radius: 10px;
-    background-color:crimson;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffefd5;
+    text-align: center;
+    padding: 20px;
 }
-
-.timer2{
-    width: 100%;
-    max-width: 330px;
-    padding: 15px;
+.container {
+    max-width: 600px;
     margin: auto;
-    margin-bottom: 10px; /* Add margin-bottom property */
-    border: 1px solid #555;
+    background: white;
+    padding: 20px;
     border-radius: 10px;
-    background-color:white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-.timer3{
-    width: 100%;
-    max-width: 330px;
-    padding: 15px;
-    margin: auto;
-    margin-bottom: 10px; /* Add margin-bottom property */
-    border: 1px solid #555;
-    border-radius: 10px;
-    background-color:green;
+h1 {
+    color: #d63447;
 }
-
-.activeTimers {
-    background-color:gold;
-    border: 2px solid black;
-    border-radius: 10px;
+form {
+    margin-bottom: 20px;
+}
+input, button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}
+#countdowns {
+    margin-top: 20px;
+}
+.countdown-item {
+    background: #ffcccb;
     padding: 10px;
     margin: 10px;
-}
-h1{
-    text-align: center;
-    color: black;
-    border: 1px solid #555;
-    border-radius: 10px;
-    background-color:green;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
